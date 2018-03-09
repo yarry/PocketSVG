@@ -11,6 +11,16 @@
 		1DC5ADD41CC9B17A008FDA98 /* SVGBezierPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DC5ADD11CC9B17A008FDA98 /* SVGBezierPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1DC5ADD51CC9B17A008FDA98 /* SVGBezierPath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1DC5ADD21CC9B17A008FDA98 /* SVGBezierPath.mm */; };
 		1DC5ADD61CC9B17A008FDA98 /* SVGBezierPath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1DC5ADD21CC9B17A008FDA98 /* SVGBezierPath.mm */; };
+		4B3472222052E68200C3727E /* ImageRenderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3472212052E68200C3727E /* ImageRenderTests.m */; };
+		4B3472242052E68200C3727E /* PocketSVG.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C79800F51A21CDFD00380860 /* PocketSVG.framework */; };
+		4B3472392053077C00C3727E /* BezierCurve.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B3472312053077C00C3727E /* BezierCurve.png */; };
+		4B34723A2053077C00C3727E /* iceland.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4B3472322053077C00C3727E /* iceland.svg */; };
+		4B34723B2053077C00C3727E /* BezierCurve.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4B3472332053077C00C3727E /* BezierCurve.svg */; };
+		4B34723E2053077C00C3727E /* iceland.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B3472362053077C00C3727E /* iceland.png */; };
+		4B3472422053116000C3727E /* ArcFill.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B3472402053116000C3727E /* ArcFill.png */; };
+		4B3472432053116000C3727E /* ArcFill.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4B3472412053116000C3727E /* ArcFill.svg */; };
+		4B3472462053142800C3727E /* ArcSweep.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B3472442053142800C3727E /* ArcSweep.png */; };
+		4B3472472053142800C3727E /* ArcSweep.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4B3472452053142800C3727E /* ArcSweep.svg */; };
 		B0EEE2191D6C680400BCAF68 /* PocketSVG.h in Headers */ = {isa = PBXBuildFile; fileRef = B0EEE2181D6C680400BCAF68 /* PocketSVG.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B0EEE23A1D6CA89A00BCAF68 /* PocketSVG.h in Headers */ = {isa = PBXBuildFile; fileRef = B0EEE2181D6C680400BCAF68 /* PocketSVG.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C79800E01A21CB9A00380860 /* SVGLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = C79800D91A21CB9A00380860 /* SVGLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -29,9 +39,30 @@
 		C79801331A21F35C00380860 /* SVGImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C798012D1A21F35C00380860 /* SVGImageView.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		4B3472252052E68200C3727E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C79800B21A21CB5300380860 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C79800F41A21CDFD00380860;
+			remoteInfo = "PocketSVG (Mac)";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		1DC5ADD11CC9B17A008FDA98 /* SVGBezierPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGBezierPath.h; sourceTree = "<group>"; };
 		1DC5ADD21CC9B17A008FDA98 /* SVGBezierPath.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SVGBezierPath.mm; sourceTree = "<group>"; };
+		4B34721F2052E68200C3727E /* Tests (Mac).xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests (Mac).xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B3472212052E68200C3727E /* ImageRenderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageRenderTests.m; sourceTree = "<group>"; };
+		4B3472232052E68200C3727E /* TestsMacInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TestsMacInfo.plist; sourceTree = "<group>"; };
+		4B3472312053077C00C3727E /* BezierCurve.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BezierCurve.png; sourceTree = "<group>"; };
+		4B3472322053077C00C3727E /* iceland.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = iceland.svg; sourceTree = "<group>"; };
+		4B3472332053077C00C3727E /* BezierCurve.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = BezierCurve.svg; sourceTree = "<group>"; };
+		4B3472362053077C00C3727E /* iceland.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iceland.png; sourceTree = "<group>"; };
+		4B3472402053116000C3727E /* ArcFill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ArcFill.png; sourceTree = "<group>"; };
+		4B3472412053116000C3727E /* ArcFill.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ArcFill.svg; sourceTree = "<group>"; };
+		4B3472442053142800C3727E /* ArcSweep.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ArcSweep.png; sourceTree = "<group>"; };
+		4B3472452053142800C3727E /* ArcSweep.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ArcSweep.svg; sourceTree = "<group>"; };
 		B0EEE2181D6C680400BCAF68 /* PocketSVG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PocketSVG.h; sourceTree = "<group>"; };
 		B0EEE21B1D6C6A4300BCAF68 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C79800BB1A21CB5300380860 /* PocketSVG.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PocketSVG.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +80,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4B34721C2052E68200C3727E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B3472242052E68200C3727E /* PocketSVG.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C79800B71A21CB5300380860 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -68,6 +107,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B34722A2052E88300C3727E /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4B3472212052E68200C3727E /* ImageRenderTests.m */,
+				4B3472232052E68200C3727E /* TestsMacInfo.plist */,
+				4B34722B2052E88300C3727E /* Cases */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		4B34722B2052E88300C3727E /* Cases */ = {
+			isa = PBXGroup;
+			children = (
+				4B3472442053142800C3727E /* ArcSweep.png */,
+				4B3472452053142800C3727E /* ArcSweep.svg */,
+				4B3472402053116000C3727E /* ArcFill.png */,
+				4B3472412053116000C3727E /* ArcFill.svg */,
+				4B3472312053077C00C3727E /* BezierCurve.png */,
+				4B3472332053077C00C3727E /* BezierCurve.svg */,
+				4B3472362053077C00C3727E /* iceland.png */,
+				4B3472322053077C00C3727E /* iceland.svg */,
+			);
+			path = Cases;
+			sourceTree = "<group>";
+		};
 		C79800B11A21CB5300380860 = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +148,7 @@
 				C79800BE1A21CB5300380860 /* Supporting Files */,
 				C79800BC1A21CB5300380860 /* Products */,
 				B0EEE21B1D6C6A4300BCAF68 /* README.md */,
+				4B34722A2052E88300C3727E /* Tests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +157,7 @@
 			children = (
 				C79800BB1A21CB5300380860 /* PocketSVG.framework */,
 				C79800F51A21CDFD00380860 /* PocketSVG.framework */,
+				4B34721F2052E68200C3727E /* Tests (Mac).xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -137,6 +203,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		4B34721E2052E68200C3727E /* Tests (Mac) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B3472292052E68200C3727E /* Build configuration list for PBXNativeTarget "Tests (Mac)" */;
+			buildPhases = (
+				4B34721B2052E68200C3727E /* Sources */,
+				4B34721C2052E68200C3727E /* Frameworks */,
+				4B34721D2052E68200C3727E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B3472262052E68200C3727E /* PBXTargetDependency */,
+			);
+			name = "Tests (Mac)";
+			productName = "PocketSVGTests-Mac";
+			productReference = 4B34721F2052E68200C3727E /* Tests (Mac).xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		C79800BA1A21CB5300380860 /* PocketSVG (iOS) */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C79800D11A21CB5300380860 /* Build configuration list for PBXNativeTarget "PocketSVG (iOS)" */;
@@ -182,6 +266,10 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Fjölnir Ásgeirsson";
 				TargetAttributes = {
+					4B34721E2052E68200C3727E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
 					C79800BA1A21CB5300380860 = {
 						CreatedOnToolsVersion = 6.1;
 						LastSwiftMigration = 0800;
@@ -207,11 +295,27 @@
 			targets = (
 				C79800BA1A21CB5300380860 /* PocketSVG (iOS) */,
 				C79800F41A21CDFD00380860 /* PocketSVG (Mac) */,
+				4B34721E2052E68200C3727E /* Tests (Mac) */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4B34721D2052E68200C3727E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B3472432053116000C3727E /* ArcFill.svg in Resources */,
+				4B3472392053077C00C3727E /* BezierCurve.png in Resources */,
+				4B3472422053116000C3727E /* ArcFill.png in Resources */,
+				4B3472462053142800C3727E /* ArcSweep.png in Resources */,
+				4B3472472053142800C3727E /* ArcSweep.svg in Resources */,
+				4B34723A2053077C00C3727E /* iceland.svg in Resources */,
+				4B34723B2053077C00C3727E /* BezierCurve.svg in Resources */,
+				4B34723E2053077C00C3727E /* iceland.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C79800B91A21CB5300380860 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -229,6 +333,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4B34721B2052E68200C3727E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B3472222052E68200C3727E /* ImageRenderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C79800B61A21CB5300380860 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -253,7 +365,76 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		4B3472262052E68200C3727E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C79800F41A21CDFD00380860 /* PocketSVG (Mac) */;
+			targetProxy = 4B3472252052E68200C3727E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		4B3472272052E68200C3727E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = Tests/TestsMacInfo.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pocketsvg.pocketsvg.Tests-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4B3472282052E68200C3727E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = Tests/TestsMacInfo.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pocketsvg.pocketsvg.Tests-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 		C79800CF1A21CB5300380860 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -459,6 +640,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4B3472292052E68200C3727E /* Build configuration list for PBXNativeTarget "Tests (Mac)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B3472272052E68200C3727E /* Debug */,
+				4B3472282052E68200C3727E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C79800B51A21CB5300380860 /* Build configuration list for PBXProject "PocketSVG" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
